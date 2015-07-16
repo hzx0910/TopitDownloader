@@ -1,0 +1,35 @@
+﻿<!DOCTYPE HTML>
+<html>
+<body>
+
+<a href="javascript:function nofind(img, osrc) {
+    img.src = osrc.replace('/o', '/l').replace('o.', 'l.');
+} 
+(function() {
+    /*page_max 加载的最大页码数 */
+    /*page_min 加载的最小页码数 */
+    var page_max = $('#page-next').prev().text() * 1 || 1;
+    var page_min = 1;
+    var body = '';
+    var href = location.href.split('?')[0];
+    function getpage(n) {
+        if (n < page_min) {
+            document.body.innerHTML = body;
+            return;
+        }
+        $.get(href + '?p=' + n,
+        function(data) {
+            var str = '';
+            $(data).find('#content img.img').each(function(i, v) {
+                var osrc = ($(this).attr('src').indexOf('blank.gif') >= 0 ? $(this).attr('data-original') : $(this).attr('src'));
+                osrc = osrc.replace('/s', '/o').replace('s.', 'o.').replace('/t', '/o').replace('t.', 'o.').replace('/m', '/o').replace('m.', 'o.').replace('/l', '/o').replace('l.', 'o.');
+                body += '<img onerror=\'nofind(this,this.src)\' src=\'' + osrc + '\' /><br/>\r\n';
+            });
+            getpage(--n);
+        })
+    }
+    getpage(page_max);
+})();" background-image:url('s.wenzhang.baidu.com/css/pjt/site/page/imgs/tools/drop-ok-btn.png?v=4104') no-repeat scroll 0px 0px transparent;"><span>把窝拖到收藏夹(Topit)</span></a>
+
+</body>
+</html>
