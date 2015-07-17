@@ -1,0 +1,125 @@
+/*! 5323 2013-11-29 15:20:39 */
+@import url(/css/pjt/site/common/base.css?v=4088);
+@import url(/css/pjt/site/common/black_header.css?v=4250);
+@import url(/css/comp/goTop.css?v=3802);
+.square-sc-btn {float: left; font-size: 20px; padding: 0.6em 4em 0.5em; background-color: #ea5449; border-radius: 3px; border: 0 solid #ca382f; border-bottom-width: 5px;}
+a.square-sc-btn:link, a.square-sc-btn:visited {color: #fff;}
+a.square-sc-btn:hover {background-color: #fd5f53;}
+a.square-sc-btn:active {border-bottom-width: 0; border-top-width: 5px;}
+a.bookmark-drop-btn:hover {position: relative; top: 1px;}
+a.bookmark-drop-btn {cursor: move; display: block; height: 56px; width: 290px; margin: 25px 0 0;}
+a.bookmark-drop-btn span {display: none;}
+.md1 {position: relative; height: 301px; margin: 0 auto; background-color: #f2f2f2; overflow: hidden; border-bottom: 1px solid #999;}
+.md1 .mid-box {position: relative; width: 960px; height: 301px; margin: auto;}
+.md1 .yinying {position: absolute; top: 0; left: 50%; margin: 0 0 0 -700px; width: 1426px; height: 9px; background: url(shadow.png?v=4088) no-repeat 0 0; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://s.wenzhang.baidu.com/css/pjt/site/page/imgs/tools/shadow.png',sizingMethod='scale'); #background: none;}
+.md1 .install-btn {display: none; position: absolute; float: left; right: 0; top: 90px;}
+.md1 .tit-pic {position: absolute; left: 30px; top: 50px; width: 529px; height: 180px; background: url(tit_pic.png?v=5095) no-repeat 0 0; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://s.wenzhang.baidu.com/css/pjt/site/page/imgs/tools/tit_pic.png',sizingMethod='scale'); #background: none;}
+.md1 .bookmark-drop-btn {background: url(drop-ok-btn.png?v=4104) no-repeat 0 0;}
+.md1 .right-click .bookmark-drop-btn {position: relative; z-index: 1; background: url(right-click-btn.png?v=4648) no-repeat 0 0; cursor: default;}
+.md1 .right-click .install-tips2 {position: absolute; left: -31px; top: 66px; width: 113px; height: 81px; background: url(right-click-btn-tips.png?v=4169) no-repeat 0 0; cursor: default;}
+.md1 .chrome-ex .bookmark-drop-btn {background: url(chrome-ex-btn.png?v=4104) no-repeat 0 0; cursor: pointer;}
+.md1 .with-chrome-ex {display: block; top: 145px;}
+.md1 .with-chrome-ex span {left: 0; right: auto;}
+.md1 .with-chrome-ex .tipsad {display: none;}
+.md1 .chrome-ex {top: 42px;}
+.md1 .install-tips {overflow: hidden;}
+.md1 .install-tips span {position: absolute; float: left; right: 0; top: 0;}
+.md1 .install-tips .tipsad {float: left; right: auto; left: 0;}
+.md1 .install-tips a:link, .md1 .install-tips a:visited {color: #3fb8eb;}
+.md1 .install-tips a:hover, .md1 .install-tips a:active {color: #ea5449; text-decoration: underline;}
+.md2 {height: 448px; padding: 40px 0 0;}
+.md2 .tip-pic {height: 380px; width: 960px; margin: 0 auto;}
+.md2 .drop-ok {background: url(tit_pic_drop_ok.png?v=4088) no-repeat center 0;}
+.md2 .right-click {background: url(tit_pic_right_click.png?v=4088) no-repeat center 0;}
+.md2 .right-click2 {background: url(tit_pic_right_click2.png?v=4088) no-repeat center 0;}
+.md2 .chrome-ex {background: url(tit_pic_chrome_ex.png?v=4127) no-repeat center 0;}
+.md3 {margin: 74px 0 0; padding: 30px 0; background-color: #f2f2f2; border: 1px solid #e7e7e7; border-width: 1px 0;}
+.tab-nav {width: 890px; margin: 0 auto;}
+.tab-nav a {float: left; width: 445px; height: 72px; line-height: 58px; text-align: center; font-size: 26px; border-top: 4px solid #fff;}
+.tab-nav .curr {border-top-color: #444; background: url(guide-tab-ico.png?v=4608) no-repeat center bottom;}
+.s-btn {float: left; padding: 5px 14px 6px; background-color: #fff; border-radius: 2px; border: 1px solid #aaa;}
+.install-btn .gap, .install-btn .bookmark-drop-bookmark-btn {margin: 14px 0 0;}
+.install-btn .gap {float: left; padding: 6px 0 0; margin-right: 13px;}
+.section_1 {}
+.section {width: 888px; margin: 70px auto; text-align: center;}
+.s-title {margin: 16px 0 0;}
+.section_title {width: 640px; height: 48px; border-radius: 2px; margin: 80px auto 160px; line-height: 48px; font-size: 22px; background-color: #49b6c6; color: #fff;}
+.section_2 {}
+.section_2 .s2-2 {margin: 0 80px 0 100px;}
+.use-md {width: 890px; margin: 0 auto; padding: 0  0 30px; border: 1px solid #999; border-width: 0 0 0 1px;}
+.use-md .tit {position: relative; left: -15px; margin: 0 0 0px; clear: both;}
+.use-md .tit .order {float: left; width: 30px; height: 30px; background: url(guide-order-1.png?v=4608) no-repeat 0 0; text-indent: -99px; overflow: hidden;}
+.use-md .tit .txt {font-size: 18px; font-weight: bold; padding: 3px 0 0 14px; float: left; color: #333;}
+.use-md .content {position: relative; padding: 30px 0 0 98px;}
+.use-md1 .content .content-tips {float: left; position: relative;}
+.use-md1 .content p {position: relative; float: left; clear: both; left: -98px; width: 259px; height: 37px; margin: 30px 0 30px; background: url(guide-btn.png?v=4608) no-repeat 0 0;}
+.use-md1 .content p a {position: absolute; left: 123px; top: 9px;}
+.use-md .content a {color: #007ac6;}
+.use-md .content a:hover, .use-md .content a:active {color: #ea5449; text-decoration: underline;}
+.use-md2 .content .content-tips {float: left; position: relative;}
+.use-md2 .tit .order {background-image: url(guide-order-2.png?v=4608);}
+.use-md3 .tit .order {background-image: url(guide-order-3.png?v=4608);}
+.use-md3 .content p {font-size: 14px; margin: 1em 0;}
+.content-tips {display: none;}
+.drop-ok .drop-ok {display: block;}
+.right-click .right-click {display: block;}
+.right-click2 .right-click2 {display: block;}
+.chrome-ex .chrome-ex {display: block;}
+.chrome-ex-bookmark .chrome-ex-bookmark {display: block;}
+.page {min-width: 980px;}
+.header {}
+.h_top {background-color: #2E2E2E; height: 3px; overflow: hidden;}
+.h_con {height: 60px;}
+.h_con img {height: 40px; width: 218px; margin-left: 172px; margin-top: 10px; float: left; display: inline; cursor: pointer;}
+.h_con h1 {margin-left: 14px; float: left; margin-top: 18px; display: inline; font-size: 26px;}
+.h_right {float: right; margin-right: 20px;}
+.right_con {position: relative; top: 7px; *top: 9px; display: inline;}
+.h_right a {color: black; text-decoration: none; margin-top: 10px; display: inline; text-align: center; width: 120px; padding: 0 10px; font-size: 12px; font-family: "宋体";}
+.header .h_con .log_d {cursor: pointer; background: #2E2E2E; margin-right: 30px; height: 30px; width: 119px; color: #FFF; text-align: center; line-height: 27px; float: right; font-size: 16px; font: 16px/28px "Microsoft YaHei";}
+.header .h_con .log_d:hover {background: url(login_h.png?v=2730) 0 0 no-repeat;}
+#btn_tool {cursor: move;}
+.h_shadow {position: relative; width: 100%; height: 26px; min-width: 1440px; margin: 0 auto; background: url(shadow.png?v=4088) no-repeat;}
+.h_shadowi {height: 251px; margin: 0 auto; background-color: #fafafa; overflow: hidden; background: url(title_bg.png?v=4082) repeat 0 0;}
+.tit-pic {position: absolute; left: 30px; top: 50px; width: 529px; height: 180px; background: url(tit_pic.png?v=5095) no-repeat 0 0;}
+.h_shadowi .square-sc-btn {float: right;}
+.collec_tool {height: 108px; background-color: #FAFAFA; margin: 0 auto;}
+#g_icon {height: 81px; width: 187px; position: absolute; background: url(g_icon.png?v=3995) 0 0 no-repeat; top: 9px; left: 371px; display: none;}
+.case-by-case .content {background: url(mainb_a.png?v=2730) 0 0 repeat-x; height: 490px; padding-top: 47px;}
+.main_b_chrome, .main_b_other {height: 490px; margin: 0 auto; width: 750px; overflow: hidden;}
+.main_b_ie {height: 490px; margin: 0 auto; width: 1024px; overflow: hidden;}
+.guild_d {float: left; margin-left: 25px; display: inline;}
+.guild_d img {width: 298px; height: 257px;}
+.main_b_chrome .guild_d .guild_no2,.main_b_other .guild_d .guild_no2 {margin-left: 45px;}
+.main_b_ie .guild_d .guild_no2 {margin-left: 0px;}
+.main_b_ie .guild_d .guild_no3 {margin-left: 40px;}
+.guild_d .guild_txt {text-align: center; font-size: 18px; *font-size: 16px; margin-top: 26px; font-family: arial,微软雅黑,sans-serif; font-weight: normal; line-height: 30px; text-indent: 11px; float: left; display: inline;}
+.guild_d .guild_no1, .guild_d .guild_no2, .guild_d .guild_no3 {margin-top: 26px; margin-left: 77px; height: 30px; width: 30px; float: left; display: inline;}
+.guild_d .guild_no1 {background: url(no1.gif?v=3217) 0 0 no-repeat;}
+.guild_d .guild_no2 {background: url(no2.gif?v=3217) 0 0 no-repeat;}
+.guild_d .guild_no3 {background: url(no3.gif?v=3217) 0 0 no-repeat;}
+.guild_ab {width: 980px; text-align: left; margin: 0 auto; border-top: 1px solid #ddd;}
+.guild_ab h1 {position: relative; top: -14px; margin: 0 auto 25px; height: 23px; width: 210px; text-align: center; font-size: 26px; font-weight: normal; font-family: arial,微软雅黑,sans-serif; background-color: #f2f2f2;}
+.guild_browsers {font-size: 12px;}
+.browser-nav {float: left; margin: 0; padding: 0;}
+.browser-nav li {height: 35px; width: 176px; list-style: none; border: 1px solid #dcdddc; border-right: 0; margin-bottom: 3px; background-color: #f5f5f5;}
+.browser-nav li a {color: #5d5d5d; display: inline-block; height: 25px; width: 138px; padding-left: 38px; padding-top: 8px; font-size: 14px; font-family: "微软雅黑"; background: url(chrome-icon_0002dfe9.png?v=2730) 10px center no-repeat; text-decoration: none;}
+#baidu_b a {background-image: url(baidu-icon.png?v=4608);}
+#liebao_b a {background-image: url(liebao-icon.png?v=4608);}
+#aoyou_b a {background-image: url(aoyou-icon_78ce5931.png?v=2730);}
+#ie_b a {background-image: url(ie-icon_d2c6a521.png?v=2730);}
+#firefox_b a {background-image: url(firefox-icon_9e8858be.png?v=2730);}
+#world_b a {background-image: url(world-icon_51edd2a8.png?v=2730);}
+#sougou_b a {background-image: url(sougou-icon_1415c7a3.png?v=2730);}
+#b360safe_2b a {background-image: url(360-safe-icon_f5a923fb.png?v=2730);}
+#b360_2b a {background-image: url(360-icon_280ff4a6.png?v=2730);}
+#opera_b a {background-image: url(opera-icon_d75af0d4.png?v=2730);}
+#safari_b a {background-image: url(safari-icon_2b7369a2.png?v=2730);}
+.guide-detail {width: 760px; height: 385px; padding-left: 10px; padding-top: 10px; border: 1px solid #dcdddc; float: left; background-color: #fff;}
+body:nth-of-type(1)  .guide-detail {height: 465px;}
+.browser-nav li a:hover, .browser-nav li a.current {border-bottom: 3px solid #1aa8f5; _border-bottom: 2px solid #1aa8f5; background-color: #fff;}
+.browser-nav li a:hover, .browser-nav li a.current {border-bottom: 3px solid #1aa8f5; _border-bottom: 2px solid #1aa8f5; background-color: #fff;}
+#btn_tip {color: #007AC6; height: 48px; text-align: center; width: 88px; font-size: 12px; float: left; margin-left: 13px; margin-top: 53px; text-decoration: none; font-family: 宋体,sans-serif;}
+#btn_tipD {color: #007AC6; height: 48px; text-align: center; width: 110px; font-size: 12px; float: left; margin-left: 13px; margin-top: 53px; text-decoration: none; font-family: 宋体,sans-serif;}
+#collector {color: #EA5449; font-weight: bold; border-top: 4px #EA5449 solid; padding-top: 9px;}
+#footer {height: 30px; color: #999; line-height: 30px; width: 100%; text-align: center; padding: 20px 0 20px; position: relative;}
+#footer a {color: #999; text-decoration: none;}
