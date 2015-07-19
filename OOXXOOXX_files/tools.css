@@ -46,13 +46,13 @@ a.bookmark-drop-btn span {display: none;}
 .section_title {width: 640px; height: 48px; border-radius: 2px; margin: 80px auto 160px; line-height: 48px; font-size: 22px; background-color: #49b6c6; color: #fff;}
 .section_2 {}
 .section_2 .s2-2 {margin: 0 80px 0 100px;}
-.use-md {width: 890px; margin: 0 auto; padding: 0  0 30px; border: 1px solid #999; border-width: 0 0 0 1px;}
+.use-md {width: 890px; margin: 0 auto; padding: 0  0 10px; border: 1px solid #999; border-width: 0 0 0 1px;}
 .use-md .tit {position: relative; left: -15px; margin: 0 0 0px; clear: both;}
 .use-md .tit .order {float: left; width: 30px; height: 30px; background: url(guide-order-1.png?v=4608) no-repeat 0 0; text-indent: -99px; overflow: hidden;}
 .use-md .tit .txt {font-size: 18px; font-weight: bold; padding: 3px 0 0 14px; float: left; color: #333;}
-.use-md .content {position: relative; padding: 30px 0 0 98px;}
+.use-md .content {position: relative; padding: 10px 0 0 98px;}
 .use-md1 .content .content-tips {float: left; position: relative;}
-.use-md1 .content p {position: relative; float: left; clear: both; left: -98px; width: 259px; height: 37px; margin: 30px 0 30px; background: url(guide-btn.png?v=4608) no-repeat 0 0;}
+.use-md1 .content p {position: relative; float: left; clear: both; left: -98px; width: 259px; height: 37px; margin: 15px 0 15px; background: url(guide-btn.png?v=4608) no-repeat 0 0;}
 .use-md1 .content p a {position: absolute; left: 123px; top: 9px;}
 .use-md .content a {color: #007ac6;}
 .use-md .content a:hover, .use-md .content a:active {color: #ea5449; text-decoration: underline;}
